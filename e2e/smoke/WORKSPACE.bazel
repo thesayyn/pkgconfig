@@ -1,0 +1,12 @@
+# Override http_archive for local testing
+local_repository(
+    name = "pkgconfig",
+    path = "../..",
+)
+
+#---SNIP--- Below here is re-used in the workspace snippet published on releases
+
+######################
+# pkgconfig setup #
+######################
+# Workspace is not supported!
